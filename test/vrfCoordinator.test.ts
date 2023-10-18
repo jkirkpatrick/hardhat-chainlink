@@ -1,7 +1,6 @@
 import chai from "chai";
 import chaiAsPromised from "chai-as-promised";
 import { randomBytes } from "crypto";
-import { BigNumber } from "ethers";
 
 import { PACKAGE_NAME } from "../src/shared/constants";
 import { Task, VRFSubtask } from "../src/shared/enums";
