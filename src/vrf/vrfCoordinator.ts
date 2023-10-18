@@ -4,7 +4,7 @@ import {
   ContractReceipt,
   ContractTransaction,
 } from "ethers";
-import { BytesLike, defaultAbiCoder } from "ethers/lib/utils";
+import { BytesLike, defaultAbiCoder } from "ethers/lib.esm/utils";
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 
 import {

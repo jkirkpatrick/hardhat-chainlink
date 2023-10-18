@@ -45,7 +45,7 @@
     "@nomicfoundation/hardhat-toolbox": "^3.0.0",
     "@nomiclabs/hardhat-ethers": "^2.2.3",
     "@nomiclabs/hardhat-etherscan": "^3.1.7",
-    "@typechain/ethers-v6": "^0.4.3",
+    "@typechain/ethers-v6": "^0.5.1",
     "@typechain/hardhat": "^9.1.0",
     "@types/chai": "^4.3.5",
     "@types/mocha": "^10.0.1",
@@ -71,7 +71,7 @@
     "@inquirer/input": "^1.2.5",
     "@inquirer/select": "^1.2.5",
     "axios": "^1.4.0",
-    "chalk": "4.1.2",
+    "chalk": "5.3.0",
     "ethers": "^6.8.0"
   },
   "peerDependencies": {
@@ -83,10 +83,10 @@
   },
   "overrides": {
     "@chainlink/hardhat-chainlink": {
-      "@typechain/ethers-v6": "^0.4.3"
+      "@typechain/ethers-v6": "^0.5.1"
     },
     "@typechain/hardhat": {
-      "@typechain/ethers-v6": "^0.4.3"
+      "@typechain/ethers-v6": "^0.5.1"
     },
     "@nomicfoundation/hardhat-toolbox": {
       "hardhat-gas-reporter": {
@@ -94,7 +94,7 @@
       },
       "ethers": "6.8.0",
       "@nomicfoundation/hardhat-chai-matchers": "^2.0.2",
-      "@typechain/ethers-v6@": "^0.4.3",
+      "@typechain/ethers-v6@": "^0.5.1",
       "@typechain/hardhat": "9.1.0"
     },
     "@nomicfoundation/hardhat-chai-matchers": {

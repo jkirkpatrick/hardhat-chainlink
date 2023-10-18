@@ -1,5 +1,5 @@
 import { BigNumber, BigNumberish } from "ethers";
-import { BytesLike } from "ethers/lib/utils";
+import { BytesLike } from "ethers/lib.esm/utils";
 import { ActionType } from "hardhat/types";
 
 import * as vrf from "../../vrf";
