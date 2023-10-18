@@ -28,7 +28,7 @@ const config: HardhatUserConfig = {
   },
   typechain: {
     outDir: "./types",
-    target: "ethers-v5",
+    target: "ethers-v6",
     alwaysGenerateOverloads: false,
     externalArtifacts: [
       "./chainlink-artifacts/AggregatorProxyInterface.json",
